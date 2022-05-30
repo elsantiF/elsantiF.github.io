@@ -1,0 +1,14 @@
+$color-dark: #111;
+$color-white: #f0f0f0;
+
+$color-yellow: #ffc600;
+
+@mixin back-in-black {
+    background-color: $color-dark;
+    color: $color-white;
+}
+
+@mixin front-in-black {
+    color: $color-dark;
+    background-color: $color-white;
+}
