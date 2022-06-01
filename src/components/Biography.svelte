@@ -11,23 +11,24 @@
 
 <style lang="scss">
     @import '../styles/colors.scss';
+    @import '../styles/sizes.scss';
 
     article {
         /* Colors */
         @include front-in-black;
 
         /* Space */
-        padding: 2em 5em;
+        padding: calc($container-padding - 2%) $container-padding;
 
         /* Classes */
         .title {
-            font-size: 2.5vw;
+            font-size: $article-font-size;
         }
 
         .text {
-            font-size: 1.15vw;
+            font-size: $normal-font-size;
             text-align: justify;
-            margin-right: 25%;
+            margin-right: $right-margin;
         }
     }
 </style>

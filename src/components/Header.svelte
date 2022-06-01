@@ -7,13 +7,14 @@
 
 <style lang="scss">
     @import '../styles/colors.scss';
+    @import '../styles/sizes.scss';
 
     header {
         /* Colors */ 
         @include back-in-black();
 
         /* Spaces */
-        padding: 5em;
+        padding: $container-padding;
 
         h1, h2 {
             margin: 0;
@@ -21,13 +22,13 @@
 
         /* Classes */
         .title {
-            margin-bottom: -2.5vw;
+            margin-bottom: -1vw;
             text-transform: uppercase;
-            font-size: 6vw;
+            font-size: $title-font-size;
         }
 
         .subtitle {
-            font-size: 1.5vw;
+            font-size: $subtitle-font-size;
             margin-top: 4vw;
             font-style: italic;
         }

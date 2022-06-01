@@ -7,6 +7,7 @@
 
 <style lang="scss">
     @import '../styles/colors.scss';
+    @import '../styles/sizes.scss';
 
     .main {
         /* Colors */
@@ -15,20 +16,23 @@
 
         /* Sizing */
         width: 100%;
-        height: 20vw;
+        height: 40vh;
 
         /* Space */
-        padding: 4em 0;
+        padding: $container-padding 0;
 
         .border {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             box-sizing: border-box;
-            height: 100%;
-            border-block: 2em dashed;
             text-align: center;
+            height: 100%;
+            padding: $container-padding;
+            border-block: 6vmin dashed;
 
             p {
-                margin-top: 2.5rem;
-                font-size: 3vw;
+                font-size: 5vmin;
                 font-weight: 900;
             }
         }
