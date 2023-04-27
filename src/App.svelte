@@ -5,6 +5,7 @@
     import Technologies from "./components/Technologies.svelte";
     import Projects from "./components/Projects.svelte";
 	import WIP from './components/WIP.svelte'
+    import FAQ from "./components/FAQ.svelte";
 </script>
 
 <main>
@@ -13,6 +14,7 @@
 	<Biography />
 	<Technologies />
 	<Projects />
+	<FAQ />
 	<WIP />
 </main>
 

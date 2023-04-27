@@ -1,6 +1,6 @@
 <div class="main">
     <div class="border">
-        <p>WIP</p>
+        <p>WIP:</p>
         <p>This page is under construction.</p>
     </div>
 </div>
@@ -16,23 +16,23 @@
 
         /* Sizing */
         width: 100%;
-        height: 40vh;
+        height: 100%;
 
         /* Space */
-        padding: $container-padding 0;
+        padding: 1em 0;
 
         .border {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
-            box-sizing: border-box;
+            box-sizing: content-box;
+            gap: 1em;
             text-align: center;
             height: 100%;
-            padding: $container-padding;
-            border-block: 6vmin dashed;
+            border-block: 0.5em dashed;
 
             p {
-                font-size: 5vmin;
+                font-size: 1em;
                 font-weight: 900;
             }
         }
