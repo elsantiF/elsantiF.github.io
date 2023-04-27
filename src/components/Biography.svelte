@@ -5,7 +5,7 @@
         At the age of 8 (or 9, I don't remember) I started to write little programs in Python and games in Scratch. 
         And at 14, I made my "biggest" project at that moment, a little 2D clone of Minecraft written in Java with LWJGL and OpenGL 2.1, 
         a couple of years later I started to write more complex programs, some OS developing, Android apps and web pages.
-        Now I'm 20, I'm studying at UTEC university in Fray Bentos and started to look a first job to gain more experience. 
+        Now I'm 21, I'm studying at UTEC university in Fray Bentos and started to look a first job to gain more experience. 
     </h3>
 </article>
 
