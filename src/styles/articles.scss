@@ -1,0 +1,20 @@
+@import '../styles/colors.scss';
+@import '../styles/sizes.scss';
+
+article {
+    /* Space */
+    padding: $container-padding;
+
+    /* Classes */
+    .title {
+        margin-top: 0;
+        margin-bottom: 0.75em;
+        font-size: $article-font-size;
+    }
+
+    .text {
+        font-size: $normal-font-size;
+        text-align: justify;
+        margin: 0 $right-margin;
+    }
+}

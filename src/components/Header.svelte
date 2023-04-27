@@ -11,7 +11,7 @@
 
     header {
         /* Colors */ 
-        @include back-in-black();
+        @include back-in-black;
 
         /* Spaces */
         padding: $container-padding;

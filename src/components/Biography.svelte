@@ -10,25 +10,11 @@
 </article>
 
 <style lang="scss">
-    @import '../styles/colors.scss';
-    @import '../styles/sizes.scss';
+    @import "../styles/articles.scss";
 
+    /* Colors */
     article {
-        /* Colors */
         @include front-in-black;
-
-        /* Space */
-        padding: calc($container-padding - 2%) $container-padding;
-
-        /* Classes */
-        .title {
-            font-size: $article-font-size;
-        }
-
-        .text {
-            font-size: $normal-font-size;
-            text-align: justify;
-            margin-right: $right-margin;
-        }
     }
+
 </style>
