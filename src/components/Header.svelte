@@ -1,5 +1,5 @@
 <header>
-    <h1 class="title">Hi I'm</h1>
+    <h1 class="title thin">Hi I'm</h1>
     <h1 class="title">Santiago Farall</h1>
 
     <h2 class="subtitle">A Software Developer from Uruguay</h2>
@@ -27,9 +27,13 @@
             font-size: $title-font-size;
         }
 
+        .thin {
+            font-weight: 400;
+        }
+
         .subtitle {
             font-size: $subtitle-font-size;
-            margin-top: 4vw;
+            margin-top: 1.5em;
             font-style: italic;
         }
     }

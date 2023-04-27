@@ -2,9 +2,10 @@ $color-dark: #111;
 $color-white: #f0f0f0;
 
 $color-yellow: #ffc600;
+$color-gray: #14141F;
 
 @mixin back-in-black {
-    background-color: $color-dark;
+    background-color: $color-gray;
     color: $color-white;
 }
 
