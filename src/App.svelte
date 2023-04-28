@@ -4,8 +4,9 @@
 	import Biography from "./sections/Biography.svelte";
     import Technologies from "./sections/Technologies.svelte";
     import Projects from "./sections/Projects.svelte";
-	import WIP from './sections/WIP.svelte'
     import FAQ from "./sections/FAQ.svelte";
+	import WIP from './sections/WIP.svelte'
+    import Social from "./sections/Social.svelte";
 </script>
 
 <main>
@@ -16,6 +17,7 @@
 	<Projects />
 	<FAQ />
 	<WIP />
+	<Social />
 </main>
 
 <style>

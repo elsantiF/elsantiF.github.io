@@ -1,11 +1,13 @@
-<script>
-    //Not a good name for the file, but I couldn't find something better
-</script>
-
 <div>
-    <p>This page is made with
-        <a href="https://svelte.dev/">Svelte</a>
-    </p>
+    <a href="https://www.linkedin.com/in/santiago-farall-moncecchi/" target="_blank">
+        <i class="devicon-linkedin-plain" />
+        Linkedin
+    </a>
+
+    <a href="https://github.com/elsantiF/" target="_blank">
+        <i class="devicon-github-original" />
+        GitHub
+    </a>
 </div>
 
 <style lang="scss">
@@ -25,13 +27,13 @@
         color: $color-white;
 
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
 
         font-weight: 600;
 
         a {
             color: $color-white;
-            font-weight: 800;
+            /*font-weight: 00;*/
             text-decoration: none;
         }
     }
