@@ -1,11 +1,11 @@
 <script>
-    import UpperHeader from "./components/UpperHeader.svelte";
-	import Header from "./components/Header.svelte";
-	import Biography from "./components/Biography.svelte";
-    import Technologies from "./components/Technologies.svelte";
-    import Projects from "./components/Projects.svelte";
-	import WIP from './components/WIP.svelte'
-    import FAQ from "./components/FAQ.svelte";
+    import UpperHeader from "./sections/UpperHeader.svelte";
+	import Header from "./sections/Header.svelte";
+	import Biography from "./sections/Biography.svelte";
+    import Technologies from "./sections/Technologies.svelte";
+    import Projects from "./sections/Projects.svelte";
+	import WIP from './sections/WIP.svelte'
+    import FAQ from "./sections/FAQ.svelte";
 </script>
 
 <main>
