@@ -40,7 +40,7 @@
 </article>
 
 <style lang="scss">
-    @import "../styles/articles.scss";
+    @import "../../styles/articles.scss";
 
     article {
         @include back-in-black;

@@ -6,8 +6,8 @@
 </header>
 
 <style lang="scss">
-    @import '../styles/colors.scss';
-    @import '../styles/sizes.scss';
+    @import '../../styles/colors.scss';
+    @import '../../styles/sizes.scss';
 
     header {
         /* Colors */ 

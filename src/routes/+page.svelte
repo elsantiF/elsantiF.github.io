@@ -9,6 +9,10 @@
     import Social from "./sections/Social.svelte";
 </script>
 
+<svelte:head>
+	<title>santif's page</title>
+</svelte:head>
+
 <main>
 	<UpperHeader />
 	<Header />
@@ -20,7 +24,3 @@
 	<!-- <WIP /> -->
 	<Social />
 </main>
-
-<style>
-	
-</style>

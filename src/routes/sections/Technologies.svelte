@@ -36,6 +36,7 @@
         <i class="devicon-git-plain"></i>
         <i class="devicon-docker-plain"></i>
         <i class="devicon-rust-plain"></i> <!-- Don't lawsuite me please -->
+        <i class="devicon-php-plain"></i>
         <i class="devicon-opengl-plain"></i>
         <i class="devicon-godot-plain"></i>
         <i class="devicon-unity-original"></i>
@@ -45,7 +46,7 @@
 </article>
 
 <style lang="scss">
-    @import "../styles/articles.scss";
+    @import "../../styles/articles.scss";
 
     article {
         @include back-in-black

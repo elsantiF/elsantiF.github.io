@@ -10,7 +10,7 @@
 </article>
 
 <style lang="scss">
-    @import "../styles/articles.scss";
+    @import "../../styles/articles.scss";
 
     /* Colors */
     article {

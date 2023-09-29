@@ -47,8 +47,8 @@
 </article>
 
 <style lang="scss">
-    @import "../styles/articles.scss";
-    @import '../styles/sizes.scss';
+    @import "../../styles/articles.scss";
+    @import '../../styles/sizes.scss';
 
     article {
         @include front-in-black;
