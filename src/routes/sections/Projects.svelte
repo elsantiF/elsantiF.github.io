@@ -34,15 +34,14 @@
         Anyways, this is my (actual) list of public projects:
     </h3>
 
-    <div id="projects">
-    {#each projects as project}
-        <div class="project">
-            <h3 class="project_title"><a href={project.link}>{project.title}</a></h3>
-            <h3 class="project_desc">
-                {project.desc}
-            </h3>
-        </div>
-    {/each}
+    <div class="project">
+        <h3 class="project_title">KOPMod - <a href="https://github.com/elsantiF/KOPMod">Link</a></h3>
+        <h3 class="project_desc">
+            As a rocket fan, when Kerbal Space Program 2 was launched I immediately buy it, but the game had a poor performance.
+            So I wrote this little mod to slightly increase the performance, and surprisingly it worked, some people passed from 8 FPS to 20.
+            As new patches are released to the game, the performance is getting better, so I suspend the development of the mod for a while.
+            I made the mod in 48 hours after the release of the game, so isn't well programmed, but works.
+        </h3>
     </div>
 </article>
 
