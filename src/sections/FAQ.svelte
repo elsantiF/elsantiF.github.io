@@ -1,35 +1,41 @@
+<script>
+    const faqs = [
+        {
+            question: "Are you looking for a job",
+            answer: "Yes"
+        },
+        {
+            question: "What is your level of English",
+            answer: "Between B2 and C1"
+        },
+        {
+            question: "Any hobbies",
+            answer: "Music, videogames, electronics and rockets"
+        },
+        {
+            question: "Are you studing",
+            answer: "Yes but I'm in a pause because administrative and personal things"
+        },
+        {
+            question: "Do you want to participate in a X project",
+            answer: "Probably yes"
+        },
+        {
+            question: "What OS you use",
+            answer: "Winodws 11 and Manjaro"
+        }
+    ]
+</script>
+
 <article>
     <h1 class="title">F.A.Q</h1>
     <h3 class="text">
+        {#each faqs as faq}
         <div>
-            <h3 class="question">Are you looking for a job</h3>
-            <h3 class="answer">Yes</h3>
+            <h3 class="question">{faq.question}</h3>
+            <h3 class="answer">{faq.answer}</h3>
         </div>
-        
-        <div>
-            <h3 class="question">What is your level of English</h3>
-            <h3 class="answer">Between B2 and C1</h3>
-        </div>
-
-        <div>
-            <h3 class="question">Any hobbies</h3>
-            <h3 class="answer">Music, videogames, electronics and rockets</h3>
-        </div>
-
-        <div>
-            <h3 class="question">Are you studing</h3>
-            <h3 class="answer">Yes but I'm in a pause because administrative and personal things</h3>
-        </div>
-
-        <div>
-            <h3 class="question">Do you want to participate in a X project</h3>
-            <h3 class="answer">Probably yes</h3>
-        </div>
-
-        <div>
-            <h3 class="question">What OS you use</h3>
-            <h3 class="answer">Winodws 11 and Manjaro</h3>
-        </div>
+        {/each}
     </h3>
 </article>
 
