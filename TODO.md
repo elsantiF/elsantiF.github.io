@@ -1,6 +1,6 @@
 # TODO
 
-Markdown is better than any other software to track progress / made TODO lists
+Markdown is better than any other software to track progress / make TODO lists
 
 - [ ] Translation
 - [ ] Responsive

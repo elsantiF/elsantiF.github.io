@@ -16,7 +16,8 @@
 	<Technologies />
 	<Projects />
 	<FAQ />
-	<WIP />
+	<!-- The page is not finished but is not longer WIP -->
+	<!-- <WIP /> -->
 	<Social />
 </main>
 

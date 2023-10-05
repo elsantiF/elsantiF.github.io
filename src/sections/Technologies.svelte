@@ -16,7 +16,8 @@
         <i class="devicon-javascript-plain"></i>
 
         <!-- Web  (libs) -->
-        <i class="devicon-nodejs-plain"></i>
+        <!-- TODO: Find better nodejs logo -->
+        <!-- <i class="devicon-nodejs-plain"></i> -->
         <i class="devicon-typescript-plain"></i>
         <i class="devicon-react-original-wordmark"></i>
         <i class="devicon-svelte-plain"></i>
