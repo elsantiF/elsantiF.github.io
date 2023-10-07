@@ -1,1 +1,1 @@
-Not working gh-pages with Sass, probably moving to Vercel
+Remember to add `-t true` in your `gh-pages` command
