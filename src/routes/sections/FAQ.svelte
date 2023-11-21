@@ -31,45 +31,43 @@
     <h1 class="title">F.A.Q</h1>
     <h3 class="text">
         {#each faqs as faq}
-        <div>
-            <h3 class="question">{faq.question}</h3>
-            <h3 class="answer">{faq.answer}</h3>
-        </div>
+            <div>
+                <h3 class="question">{faq.question}</h3>
+                <h3 class="answer">{faq.answer}</h3>
+            </div>
         {/each}
     </h3>
 </article>
 
 <style lang="scss">
-    @import "../../styles/articles.scss";
+  @import "../../styles/articles.scss";
 
-    article {
-        @include back-in-black;
+  article {
+	h3.text {
+	  div {
+		h3 {
+		  font-size: 1em;
+		  margin-bottom: 0;
+		}
 
-        h3.text {
-            div {
-                h3 {
-                    font-size: 1em;
-                    margin-bottom: 0;
-                }
+		.question {
+		  margin-top: 0.5em;
 
-                .question {
-                    margin-top: 0.5em;
+		  &::after {
+			content: "?";
+		  }
+		}
 
-                    &::after {
-                        content: "?";
-                    }
-                }
+		.answer {
+		  margin: 0 1.5em;
+		  font-weight: 400;
+		  font-size: 0.8em;
 
-                .answer {
-                    margin: 0 1.5em;
-                    font-weight: 400;
-                    font-size: 0.8em;
-
-                    &::before {
-                        content: " - ";
-                    }
-                }
-            }
-        }
-    }
+		  &::before {
+			content: " - ";
+		  }
+		}
+	  }
+	}
+  }
 </style>

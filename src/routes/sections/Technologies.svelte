@@ -1,7 +1,8 @@
 <article>
     <h1 class="title">Software and Technologies</h1>
     <h3 class="text">
-        From my starts to today I used and learned a lot of tools and programming languages, some of these are listed in the images below
+        From my starts to today I used and learned a lot of tools and programming languages, some of these are listed in
+        the images below
     </h3>
 
     <div class="text" id="logos">
@@ -46,23 +47,19 @@
 </article>
 
 <style lang="scss">
-    @import "../../styles/articles.scss";
+  @import "../../styles/articles.scss";
 
-    article {
-        @include back-in-black
-    }
+  #logos {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 
-    #logos {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+	margin: 0.5em 3vw 0 3vw;
 
-        margin: 0.5em 3vw 0 3vw;
-
-        i {
-            font-size: 5rem;
-            margin: 1rem;
-        }
-    }
+	i {
+	  font-size: 5rem;
+	  margin: 1rem;
+	}
+  }
 </style>

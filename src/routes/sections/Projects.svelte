@@ -51,19 +51,6 @@
   @import '../../styles/sizes.scss';
 
   article {
-    @include front-in-black;
-
-    #projects {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-
-      @media screen and (max-width: 1080px) {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @include front-in-black;
-
     #projects {
       display: grid;
       grid-template-columns: 1fr 1fr;
