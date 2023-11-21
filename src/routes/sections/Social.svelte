@@ -1,13 +1,11 @@
-<footer>
-    <a href="https://www.linkedin.com/in/santiago-farall-moncecchi/" target="_blank">
-        <i class="devicon-linkedin-plain" />
-        Linkedin
-    </a>
+<script>
+    import Link from "../components/Link.svelte";
+</script>
 
-    <a href="https://github.com/elsantiF/" target="_blank">
-        <i class="devicon-github-original" />
-        GitHub
-    </a>
+<footer>
+    <Link link="https://www.linkedin.com/in/santiago-farall-moncecchi/" icon="devicon-linkedin-plain" text="Linkedin" />
+    <Link link="https://github.com/elsantiF/" icon="devicon-github-original" text="GitHub" />
+    <Link link="/CV.pdf" icon="" text="CV" />
 </footer>
 
 <style lang="scss">
@@ -30,11 +28,5 @@
         justify-content: space-evenly;
 
         font-weight: 600;
-
-        a {
-            color: $color-white;
-            /*font-weight: 00;*/
-            text-decoration: none;
-        }
     }
 </style>
