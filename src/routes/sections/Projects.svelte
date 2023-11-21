@@ -47,8 +47,8 @@
 </article>
 
 <style lang="scss">
-  @import "../../styles/articles.scss";
-  @import '../../styles/sizes.scss';
+  @import "src/styles/articles";
+  @import 'src/styles/sizes';
 
   article {
     #projects {

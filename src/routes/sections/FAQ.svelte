@@ -40,7 +40,7 @@
 </article>
 
 <style lang="scss">
-  @import "../../styles/articles.scss";
+  @import "src/styles/articles";
 
   article {
 	h3.text {

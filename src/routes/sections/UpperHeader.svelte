@@ -4,13 +4,13 @@
 
 <header>
     <p>This page is made with
-        <a href="https://svelte.dev/">Svelte</a>
+        <a href="https://kit.svelte.dev/">SvelteKit</a>
     </p>
 </header>
 
 <style lang="scss">
-    @import "../../styles/colors.scss";
-    @import '../../styles/sizes.scss';
+    @import "src/styles/colors";
+    @import "src/styles/sizes";
 
 
     header {

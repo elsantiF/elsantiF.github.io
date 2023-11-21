@@ -11,8 +11,8 @@
 </footer>
 
 <style lang="scss">
-    @import "../../styles/colors.scss";
-    @import '../../styles/sizes.scss';
+    @import "src/styles/colors";
+    @import "src/styles/sizes";
 
 
     footer {
