@@ -20,8 +20,7 @@
             title: "Quads",
             link: "https://github.com/elsantiF/Quads",
             desc: `It was my first attempt to make a videogame, a 2D Minecraft clone written in Java and LWJGL2
-                (is the same project that is mentioned in the biography). I was 14 years old at the time when I worked on it, so it is a very special project for me.
-                Nowadays I can't compile it anymore but I plan to update it only to leave it working.`
+                (is the same project that is mentioned in the biography). I was 14 years old at the time when I worked on it, so it is a very special project for me.`
         }
     ]
 </script>
@@ -51,33 +50,33 @@
   @import 'src/styles/sizes';
 
   article {
-    #projects {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+	#projects {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
 
-      @media screen and (max-width: 1080px) {
-        grid-template-columns: 1fr;
-      }
-    }
+	  @media screen and (max-width: 1080px) {
+		grid-template-columns: 1fr;
+	  }
+	}
   }
 
   .project {
-    text-align: justify;
-    margin: 4em $right-margin 0;
+	text-align: justify;
+	margin: 4em $right-margin 0;
 
-    .project_title {
-      font-size: 1.5rem;
-      margin: 0;
+	.project_title {
+	  font-size: 1.5rem;
+	  margin: 0;
 
-      a {
-        color: $color-dark;
-      }
-    }
+	  a {
+		color: $color-dark;
+	  }
+	}
 
-    .project_desc {
-      margin: 0 1em;
-      width: 90%;
-      max-width: 100%;
-    }
+	.project_desc {
+	  margin: 0 1em;
+	  width: 90%;
+	  max-width: 100%;
+	}
   }
 </style>
