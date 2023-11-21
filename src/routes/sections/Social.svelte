@@ -1,4 +1,4 @@
-<div>
+<footer>
     <a href="https://www.linkedin.com/in/santiago-farall-moncecchi/" target="_blank">
         <i class="devicon-linkedin-plain" />
         Linkedin
@@ -8,14 +8,14 @@
         <i class="devicon-github-original" />
         GitHub
     </a>
-</div>
+</footer>
 
 <style lang="scss">
     @import "../../styles/colors.scss";
     @import '../../styles/sizes.scss';
 
 
-    div {
+    footer {
         display: flex;
 
         /*Size*/

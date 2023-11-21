@@ -1,20 +1,16 @@
-<header>
+<article>
     <h1 class="title thin">Hi I'm</h1>
     <h1 class="title">Santiago Farall</h1>
 
     <h2 class="subtitle">A Software Developer from Uruguay</h2>
-</header>
+</article>
 
 <style lang="scss">
-    @import '../../styles/colors.scss';
-    @import '../../styles/sizes.scss';
+    @import 'src/styles/colors';
+    @import 'src/styles/sizes';
+    @import "src/styles/articles";
 
-    header {
-        /* Colors */ 
-        @include back-in-black;
-
-        /* Spaces */
-        padding: $container-padding;
+    article {
 
         h1, h2 {
             margin: 0;
