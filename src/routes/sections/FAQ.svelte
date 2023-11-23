@@ -13,7 +13,7 @@
             answer: "Music, videogames, electronics and rockets"
         },
         {
-            question: "Are you studing",
+            question: "Are you studying",
             answer: "Yes but I'm in a pause because administrative and personal things"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             question: "What OS you use",
-            answer: "Winodws 11 and Manjaro"
+            answer: "Windows 11 and Manjaro"
         }
     ]
 </script>

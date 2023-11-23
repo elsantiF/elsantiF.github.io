@@ -5,7 +5,7 @@ $container-padding: 3em;
 $right-margin: 1em;
 
 /* Font Sizes */
-$title-font-size: 5em;
-$subtitle-font-size: 2em;
-$article-font-size: 3em;
-$normal-font-size: 1.5em;
+$normal-font-size: 14pt;
+$subtitle-font-size: calc($normal-font-size + 8pt);
+$article-font-size: calc($normal-font-size * 2);
+$title-font-size: calc($normal-font-size * 3);

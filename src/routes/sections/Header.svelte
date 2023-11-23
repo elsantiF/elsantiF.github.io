@@ -6,33 +6,33 @@
 </article>
 
 <style lang="scss">
-    @import 'src/styles/colors';
-    @import 'src/styles/sizes';
-    @import "src/styles/articles";
+  @import 'src/styles/colors';
+  @import 'src/styles/sizes';
+  @import "src/styles/articles";
 
-    article {
+  article {
 
-        h1, h2 {
-            margin: 0;
-        }
+	h1, h2 {
+	  margin: 0;
+	}
 
-        /* Classes */
-        .title {
-            margin-bottom: -1vw;
-            text-transform: uppercase;
-            font-size: $title-font-size;
-        }
+	/* Classes */
+	.title {
+	  margin-bottom: -1vw;
+	  text-transform: uppercase;
+	  font-size: $title-font-size;
+	}
 
-        .thin {
-            font-weight: 400;
-        }
+	.thin {
+	  font-weight: 400;
+	}
 
-        .subtitle {
-            font-size: $subtitle-font-size;
-            margin-top: 1.5em;
-            font-style: italic;
-        }
-    }
+	.subtitle {
+	  font-size: $subtitle-font-size;
+	  margin-top: 1.5em;
+	  font-style: italic;
+	}
+  }
 
-    
+
 </style>
