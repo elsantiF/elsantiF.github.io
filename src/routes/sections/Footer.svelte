@@ -2,18 +2,18 @@
     //Not a good name for the file, but I couldn't find something better
 </script>
 
-<header>
+<footer>
     <p>This page is made with
         <a href="https://kit.svelte.dev/">SvelteKit</a>
     </p>
-</header>
+</footer>
 
 <style lang="scss">
     @import "src/styles/colors";
     @import "src/styles/sizes";
 
 
-    header {
+    footer {
         display: flex;
 
         /*Size*/

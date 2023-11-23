@@ -2,18 +2,18 @@
     import Link from "../components/Link.svelte";
 </script>
 
-<footer>
+<header>
     <Link link="https://www.linkedin.com/in/santiago-farall-moncecchi/" icon="devicon-linkedin-plain" text="Linkedin" />
     <Link link="https://github.com/elsantiF/" icon="devicon-github-original" text="GitHub" />
     <Link link="/CV.pdf" icon="" text="CV" />
-</footer>
+</header>
 
 <style lang="scss">
     @import "src/styles/colors";
     @import "src/styles/sizes";
 
 
-    footer {
+    header {
         display: flex;
 
         /*Size*/
