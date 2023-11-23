@@ -48,6 +48,7 @@
 
 <style lang="scss">
   @import "src/styles/articles";
+  @import "src/styles/sizes";
 
   #logos {
 	display: flex;
@@ -58,7 +59,7 @@
 	margin: 0.5em 3vw 0 3vw;
 
 	i {
-	  font-size: 5rem;
+	  font-size: $title-font-size;
 	  margin: 1rem;
 	}
   }

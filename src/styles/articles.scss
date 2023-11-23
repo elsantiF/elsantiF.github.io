@@ -5,16 +5,19 @@ article {
   /* Space */
   padding: $container-padding;
 
+  @media screen and (min-width: 1000px) {
+	padding: $container-padding-1000px;
+  }
+
   /* Classes */
   .title {
 	margin-top: 0;
-	margin-bottom: 0.75em;
+	margin-bottom: 8pt;
 	font-size: $article-font-size;
   }
 
   .text {
 	font-size: $normal-font-size;
-	text-align: justify;
 	margin: 0 $right-margin;
   }
 

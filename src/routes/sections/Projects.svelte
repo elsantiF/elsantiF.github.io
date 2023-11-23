@@ -61,7 +61,6 @@
   }
 
   .project {
-	text-align: justify;
 	margin: 4em $right-margin 0;
 
 	.project_title {
