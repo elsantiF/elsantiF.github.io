@@ -22,7 +22,7 @@
         },
         {
             question: "What OS you use",
-            answer: "Windows 11 and Manjaro"
+            answer: "Windows 11 and EndeavourOS"
         }
     ]
 </script>

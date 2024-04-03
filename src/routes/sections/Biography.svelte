@@ -8,7 +8,7 @@
         and OpenGL 2.1,
         a couple of years later I started to write more complex programs, some OS developing, Android apps and web
         pages.
-        Now I'm 21, I'm studying at UTEC university in Fray Bentos and started to look a first job to gain more
+        Now I'm 22, I'm studying at UTEC university in Fray Bentos and started to look a first job to gain more
         experience.
     </h3>
 </article>
