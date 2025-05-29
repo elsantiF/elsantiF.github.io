@@ -1,5 +1,11 @@
-<script>
-	const projects = [
+<script lang="ts">
+	interface Project {
+		title: string;
+		link: string;
+		desc: string;
+	}
+
+	const projects: Project[] = [
 		{
 			title: 'KOPMod',
 			link: 'https://github.com/elsantiF/KOPMod',
