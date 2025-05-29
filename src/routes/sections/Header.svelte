@@ -6,9 +6,9 @@
 </article>
 
 <style lang="scss">
-  @import 'src/styles/colors';
-  @import 'src/styles/sizes';
-  @import "src/styles/articles";
+  @import '$styles/colors.scss';
+  @import '$styles/sizes.scss';
+  @import "$styles/articles.scss";
 
   article {
 

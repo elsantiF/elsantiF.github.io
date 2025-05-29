@@ -9,8 +9,8 @@
 </footer>
 
 <style lang="scss">
-    @import "src/styles/colors";
-    @import "src/styles/sizes";
+    @import "$styles/colors";
+    @import "$styles/sizes";
 
 
     footer {

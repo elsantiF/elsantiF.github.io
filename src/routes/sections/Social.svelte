@@ -8,9 +8,8 @@
 </header>
 
 <style lang="scss">
-    @import "src/styles/colors";
-    @import "src/styles/sizes";
-
+    @import "$styles/colors.scss";
+    @import "$styles/sizes.scss";
     header {
         display: flex;
 
