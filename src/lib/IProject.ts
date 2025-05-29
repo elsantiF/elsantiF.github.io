@@ -1,5 +1,5 @@
 export interface IProject {
-    title: string;
-    link: string;
-    desc: string;
+	title: string;
+	link: string;
+	desc: string;
 }
