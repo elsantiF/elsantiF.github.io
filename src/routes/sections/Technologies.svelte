@@ -7,42 +7,36 @@
 
 	<div class="text" id="logos">
 		<!-- C-Family -->
-		<i class="devicon-cplusplus-plain-wordmark"></i>
-		<i class="devicon-c-plain-wordmark"></i>
-		<i class="devicon-csharp-plain-wordmark"></i>
+		<i class="devicon-cplusplus-plain-wordmark" title="C++"></i>
+		<i class="devicon-c-plain-wordmark" title="C"></i>
+		<i class="devicon-csharp-plain-wordmark" title="C#"></i>
 
 		<!-- Web (pure) -->
-		<i class="devicon-html5-plain-wordmark"></i>
-		<i class="devicon-css3-plain-wordmark"></i>
-		<i class="devicon-javascript-plain"></i>
+		<i class="devicon-html5-plain-wordmark" title="HTML5"></i>
+		<i class="devicon-css3-plain-wordmark" title="CSS3"></i>
+		<i class="devicon-javascript-plain" title="JavaScript"></i>
 
 		<!-- Web  (libs) -->
 		<!-- TODO: Find better nodejs logo -->
-		<!-- <i class="devicon-nodejs-plain"></i> -->
-		<i class="devicon-typescript-plain"></i>
-		<i class="devicon-react-original-wordmark"></i>
-		<i class="devicon-svelte-plain"></i>
+		<i class="devicon-typescript-plain" title="TypeScript"></i>
+		<i class="devicon-nodejs-plain-wordmark" title="NodeJS"></i>
+		<i class="devicon-react-original-wordmark" title="React"></i>
+		<i class="devicon-svelte-plain" title="Svelte"></i>
 
 		<!-- Mobile -->
-		<i class="devicon-java-plain"></i>
-		<i class="devicon-kotlin-plain"></i>
-		<i class="devicon-android-plain"></i>
+		<i class="devicon-java-plain" title="Java"></i>
+		<i class="devicon-kotlin-plain" title="Kotlin"></i>
+		<i class="devicon-android-plain" title="Android"></i>
 
 		<!-- DB -->
-		<i class="devicon-postgresql-plain"></i>
-		<i class="devicon-mongodb-plain-wordmark"></i>
+		<i class="devicon-postgresql-plain" title="PostgreSQL"></i>
+		<i class="devicon-mongodb-plain-wordmark" title="MongoDB"></i>
 
 		<!-- Other -->
-		<i class="devicon-python-plain"></i>
-		<i class="devicon-git-plain"></i>
-		<i class="devicon-docker-plain"></i>
-		<i class="devicon-rust-plain"></i>
-		<!-- Don't lawsuite me please -->
-		<i class="devicon-php-plain"></i>
-		<i class="devicon-opengl-plain"></i>
-		<i class="devicon-godot-plain"></i>
-		<i class="devicon-unity-original"></i>
-		<i class="devicon-linux-plain"></i>
+		<i class="devicon-python-plain" title="Python"></i>
+		<i class="devicon-git-plain" title="Git"></i>
+		<i class="devicon-docker-plain" title="Docker"></i>
+		<i class="devicon-linux-plain" title="Linux"></i>
 		<!-- 23 in total; Grid 12 * 2-->
 	</div>
 </article>
