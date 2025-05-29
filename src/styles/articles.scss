@@ -2,30 +2,30 @@
 @use 'sizes.scss';
 
 article {
-  /* Space */
-  padding: sizes.$container-padding;
+	/* Space */
+	padding: sizes.$container-padding;
 
-  @media screen and (min-width: 1000px) {
-    padding: sizes.$container-padding-1000px;
-  }
+	@media screen and (min-width: 1000px) {
+		padding: sizes.$container-padding-1000px;
+	}
 
-  /* Classes */
-  .title {
-    margin-top: 0;
-    margin-bottom: 8pt;
-    font-size: sizes.$article-font-size;
-  }
+	/* Classes */
+	.title {
+		margin-top: 0;
+		margin-bottom: 8pt;
+		font-size: sizes.$article-font-size;
+	}
 
-  .text {
-    font-size: sizes.$normal-font-size;
-    margin: 0 sizes.$right-margin;
-  }
+	.text {
+		font-size: sizes.$normal-font-size;
+		margin: 0 sizes.$right-margin;
+	}
 
-  &:nth-child(even) {
-    @include colors.back-in-black
-  }
+	&:nth-child(even) {
+		@include colors.back-in-black;
+	}
 
-  &:nth-child(odd) {
-    @include colors.front-in-black
-  }
+	&:nth-child(odd) {
+		@include colors.front-in-black;
+	}
 }

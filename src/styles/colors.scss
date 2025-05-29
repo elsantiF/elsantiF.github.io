@@ -2,16 +2,16 @@ $color-dark: #111;
 $color-white: #f0f0f0;
 
 $color-yellow: #f7b019;
-$color-gray: #14141F;
+$color-gray: #14141f;
 $color-pure-gray: #a0a0a0;
-$color-gray-accent: #1a1a2F;
+$color-gray-accent: #1a1a2f;
 
 @mixin back-in-black {
-    background-color: $color-gray;
-    color: $color-white;
+	background-color: $color-gray;
+	color: $color-white;
 }
 
 @mixin front-in-black {
-    color: $color-dark;
-    background-color: $color-white;
+	color: $color-dark;
+	background-color: $color-white;
 }
