@@ -46,8 +46,9 @@
 </article>
 
 <style lang="scss">
-  @import "$styles/articles.scss";
-  @import '$styles/sizes.scss';
+  @use "$styles/articles.scss";
+  @use '$styles/sizes.scss';
+  @use '$styles/colors.scss';
 
   article {
 	#projects {
@@ -61,14 +62,14 @@
   }
 
   .project {
-	margin: 4em $right-margin 0;
+	margin: 4em sizes.$right-margin 0;
 
 	.project_title {
 	  font-size: 1.5rem;
 	  margin: 0;
 
 	  a {
-		color: $color-dark;
+		color: colors.$color-dark;
 	  }
 	}
 

@@ -9,8 +9,8 @@
 </footer>
 
 <style lang="scss">
-    @import "$styles/colors";
-    @import "$styles/sizes";
+    @use "$styles/colors";
+    @use "$styles/sizes";
 
 
     footer {
@@ -21,8 +21,8 @@
         height: 3em;
 
         /*Colors*/
-        background-color: $color-dark;
-        color: $color-white;
+        background-color: colors.$color-dark;
+        color: colors.$color-white;
 
         align-items: center;
         justify-content: center;
@@ -30,7 +30,7 @@
         font-weight: 600;
 
         a {
-            color: $color-white;
+            color: colors.$color-white;
             font-weight: 800;
             text-decoration: none;
         }

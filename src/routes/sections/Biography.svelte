@@ -14,5 +14,5 @@
 </article>
 
 <style lang="scss">
-  @import "$styles/articles.scss";
+  @use "$styles/articles.scss";
 </style>

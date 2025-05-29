@@ -8,8 +8,8 @@
 </header>
 
 <style lang="scss">
-    @import "$styles/colors.scss";
-    @import "$styles/sizes.scss";
+    @use "$styles/colors.scss";
+    @use "$styles/sizes.scss";
     header {
         display: flex;
 
@@ -18,8 +18,8 @@
         height: 3em;
 
         /*Colors*/
-        background-color: $color-dark;
-        color: $color-white;
+        background-color: colors.$color-dark;
+        color: colors.$color-white;
 
         align-items: center;
         justify-content: space-evenly;

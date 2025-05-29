@@ -1,31 +1,31 @@
-@import 'colors.scss';
-@import 'sizes.scss';
+@use 'colors.scss';
+@use 'sizes.scss';
 
 article {
   /* Space */
-  padding: $container-padding;
+  padding: sizes.$container-padding;
 
   @media screen and (min-width: 1000px) {
-	padding: $container-padding-1000px;
+    padding: sizes.$container-padding-1000px;
   }
 
   /* Classes */
   .title {
-	margin-top: 0;
-	margin-bottom: 8pt;
-	font-size: $article-font-size;
+    margin-top: 0;
+    margin-bottom: 8pt;
+    font-size: sizes.$article-font-size;
   }
 
   .text {
-	font-size: $normal-font-size;
-	margin: 0 $right-margin;
+    font-size: sizes.$normal-font-size;
+    margin: 0 sizes.$right-margin;
   }
 
   &:nth-child(even) {
-	@include back-in-black
+    @include colors.back-in-black
   }
 
   &:nth-child(odd) {
-	@include front-in-black
+    @include colors.front-in-black
   }
 }

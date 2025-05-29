@@ -6,13 +6,13 @@
 </div>
 
 <style lang="scss">
-    @import '../../styles/colors.scss';
-    @import '../../styles/sizes.scss';
+    @use '$styles/colors.scss';
+    @use '$styles/sizes.scss';
 
     .main {
         /* Colors */
-        background-color: $color-yellow;
-        color: $color-dark;
+        background-color: colors.$color-yellow;
+        color: colors.$color-dark;
 
         /* Sizing */
         width: 100%;

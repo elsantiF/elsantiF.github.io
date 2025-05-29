@@ -12,12 +12,12 @@
 </a>
 
 <style lang="scss">
-  @import "$styles/colors.scss";
+  @use "$styles/colors.scss";
 
   a {
-    color: $color-white;
+    color: colors.$color-white;
     text-decoration: none;
-    border: 2px $color-pure-gray solid;
+    border: 2px colors.$color-pure-gray solid;
     padding: 4px;
     min-width: 10%;
     max-width: 10em;
@@ -26,11 +26,11 @@
     align-items: baseline;
 
     &:hover {
-      background-color: $color-gray-accent;
+      background-color: colors.$color-gray-accent;
     }
 
     &:focus {
-      background-color: $color-pure-gray;
+      background-color: colors.$color-pure-gray;
     }
 
     i {

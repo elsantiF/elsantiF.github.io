@@ -6,9 +6,9 @@
 </article>
 
 <style lang="scss">
-  @import '$styles/colors.scss';
-  @import '$styles/sizes.scss';
-  @import "$styles/articles.scss";
+  @use '$styles/colors.scss';
+  @use '$styles/sizes.scss';
+  @use "$styles/articles.scss";
 
   article {
 
@@ -20,7 +20,7 @@
 	.title {
 	  margin-bottom: -1vw;
 	  text-transform: uppercase;
-	  font-size: $title-font-size;
+	  font-size: sizes.$title-font-size;
 	}
 
 	.thin {
@@ -28,7 +28,7 @@
 	}
 
 	.subtitle {
-	  font-size: $subtitle-font-size;
+	  font-size: sizes.$subtitle-font-size;
 	  margin-top: 1.5em;
 	  font-style: italic;
 	}

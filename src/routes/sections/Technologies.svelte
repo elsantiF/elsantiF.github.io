@@ -47,8 +47,8 @@
 </article>
 
 <style lang="scss">
-  @import "$styles/articles.scss";
-  @import "$styles/sizes.scss";
+  @use "$styles/articles.scss";
+  @use "$styles/sizes.scss";
 
   #logos {
 	display: flex;
@@ -59,7 +59,7 @@
 	margin: 0.5em 3vw 0 3vw;
 
 	i {
-	  font-size: $title-font-size;
+	  font-size: sizes.$title-font-size;
 	  margin: 1rem;
 	}
   }
