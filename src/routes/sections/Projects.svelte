@@ -7,6 +7,13 @@
 
 	const projects: Project[] = [
 		{
+			title: 'Banshee',
+			link: 'https://github.com/elsantiF/Banshee',
+			desc: `Banshee is a simple 3D render engine written in C++23 and OpenGL. Inspired by the page "LearnOpenGL".
+				Uses modern C++ features, also the libraries used are: GLFW, GLM, stb_image, ImGui and Assimp.
+				Was a personal project to learn more about C++ and OpenGL, and become the base of a future game engine in Vulkan and SDL3.`
+		},
+		{
 			title: 'KOPMod',
 			link: 'https://github.com/elsantiF/KOPMod',
 			desc: `As a rocket fan, when Kerbal Space Program 2 was launched I immediately buy it, but the game had a poor performance.
