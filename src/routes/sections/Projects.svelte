@@ -4,6 +4,13 @@ import Project from "../components/Project.svelte";
 
 const projects: IProject[] = [
 	{
+		title: "Crane",
+		link: "https://github.com/elsantiF/Crane",
+		desc: `Crane is a simple 2D game engine written in C++23. It uses SDL3, Box2D, ImGui and entt. Based on an Entity-Component-System architecture.
+				It was designed to be used in a game jam but don't finished in time, so I continued the development after the jam. I acually want to
+				make my own physics engine to replace Box2D. The engine is in a very early stage.`
+	},
+	{
 		title: "Banshee",
 		link: "https://github.com/elsantiF/Banshee",
 		desc: `Banshee is a simple 3D render engine written in C++23 and OpenGL. Inspired by the page "LearnOpenGL".
