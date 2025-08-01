@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { type IProject } from '../../lib/IProject';
+import { type IProject } from "../../lib/IProject";
 
-	const project: IProject = $props();
+const project: IProject = $props();
 </script>
 
 <div class="project">

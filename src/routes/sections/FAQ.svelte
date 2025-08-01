@@ -1,30 +1,30 @@
 <script>
-	const faqs = [
-		{
-			question: 'Are you looking for a job',
-			answer: 'Yes'
-		},
-		{
-			question: 'What is your level of English',
-			answer: 'Between B2 and C1'
-		},
-		{
-			question: 'Any hobbies',
-			answer: 'Music, videogames, electronics and rockets'
-		},
-		{
-			question: 'Are you studying',
-			answer: "Yes but I'm in a pause because personal things"
-		},
-		{
-			question: 'Do you want to participate in a X project',
-			answer: 'Probably yes'
-		},
-		{
-			question: 'What OS you use',
-			answer: 'Windows 11 and EndeavourOS'
-		}
-	];
+const faqs = [
+	{
+		question: "Are you looking for a job",
+		answer: "Yes",
+	},
+	{
+		question: "What is your level of English",
+		answer: "Between B2 and C1",
+	},
+	{
+		question: "Any hobbies",
+		answer: "Music, videogames, electronics and rockets",
+	},
+	{
+		question: "Are you studying",
+		answer: "Yes but I'm in a pause because personal things",
+	},
+	{
+		question: "Do you want to participate in a X project",
+		answer: "Probably yes",
+	},
+	{
+		question: "What OS you use",
+		answer: "Windows 11 and EndeavourOS",
+	},
+];
 </script>
 
 <article>

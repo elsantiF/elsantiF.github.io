@@ -1,5 +1,5 @@
 <script>
-	//Not a good name for the file, but I couldn't find something better
+//Not a good name for the file, but I couldn't find something better
 </script>
 
 <footer>
