@@ -1,7 +1,7 @@
 <script lang="ts">
-import { type IProject } from "../../lib/IProject";
+import { type ProjectDefinition } from "$lib/data/projects";
 
-const project: IProject = $props();
+const project: ProjectDefinition = $props();
 </script>
 
 <div class="project">
@@ -12,8 +12,8 @@ const project: IProject = $props();
 </div>
 
 <style lang="scss">
-  @use "$styles/sizes.scss";
-  @use "$styles/colors.scss";
+  @use "$lib/styles/sizes.scss";
+  @use "$lib/styles/colors.scss";
 
   .project {
     margin: 4em sizes.$right-margin 0;
@@ -23,7 +23,7 @@ const project: IProject = $props();
       margin: 0;
 
       a {
-        color: colors.$color-dark;
+        color: colors.$color-white;
       }
     }
 

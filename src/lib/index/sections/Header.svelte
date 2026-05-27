@@ -6,9 +6,9 @@
 </article>
 
 <style lang="scss">
-	@use '$styles/colors.scss';
-	@use '$styles/sizes.scss';
-	@use '$styles/articles.scss';
+	@use '$lib/styles/colors.scss';
+	@use '$lib/styles/sizes.scss';
+	@use '$lib/styles/articles.scss';
 
 	article {
 		h1,

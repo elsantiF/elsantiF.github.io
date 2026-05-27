@@ -1,5 +1,5 @@
 <script>
-import Link from "../components/Link.svelte";
+import Link from "$lib/index/components/Link.svelte";
 </script>
 
 <header>
@@ -12,8 +12,8 @@ import Link from "../components/Link.svelte";
 </header>
 
 <style lang="scss">
-	@use '$styles/colors.scss';
-	@use '$styles/sizes.scss';
+	@use '$lib/styles/colors.scss';
+	@use '$lib/styles/sizes.scss';
 	header {
 		display: flex;
 

@@ -10,8 +10,8 @@
 </footer>
 
 <style lang="scss">
-	@use '$styles/colors';
-	@use '$styles/sizes';
+	@use '$lib/styles/colors';
+	@use '$lib/styles/sizes';
 
 	footer {
 		display: flex;

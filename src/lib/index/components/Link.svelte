@@ -8,7 +8,7 @@ interface Props {
 let { link, icon, text }: Props = $props();
 </script>
 
-<a href={link} target="_blank">
+<a href={link} target="_blank" rel="noopener noreferrer">
   {#if icon}
     <i class={icon}></i>
   {/if}
@@ -16,7 +16,7 @@ let { link, icon, text }: Props = $props();
 </a>
 
 <style lang="scss">
-  @use "$styles/colors.scss";
+  @use "$lib/styles/colors.scss";
 
   a {
     color: colors.$color-white;

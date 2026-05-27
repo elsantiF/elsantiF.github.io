@@ -1,19 +1,21 @@
-<script lang="ts">
-import { type IProject } from "../../lib/IProject";
-import Project from "../components/Project.svelte";
+export interface ProjectDefinition {
+  title: string;
+  link: string;
+  desc: string;
+}
 
-const projects: IProject[] = [
+export const ALL_PROJECTS: ProjectDefinition[] = [
   {
-    "title": "qn",
+    title: "qn",
     link: "https://github.com/elsantiF/qn",
     desc: `qn was a way to learn about programming languages and compilers. It's a simple programming language written in TypeScript, 
-    that transpiles to JavaScript and TypeScript. Tries to be a simple, minimalistic and expressive.`
+    that transpiles to JavaScript and TypeScript. Tries to be a simple, minimalistic and expressive.`,
   },
   {
     title: "Crane",
     link: "https://github.com/elsantiF/Crane",
     desc: `Crane is a simple 2D game engine written in C++23. It uses SDL3, Box2D, ImGui and entt. Based on an Entity-Component-System architecture.
-				It was designed to be used in a game jam but don't finished in time, so I continued the development after the jam. I acually want to
+				It was designed to be used in a game jam but don't finished in time, so I continued the development after the jam. I actually want to
 				make my own physics engine to replace Box2D. The engine is in a very early stage.`,
   },
   {
@@ -46,34 +48,3 @@ const projects: IProject[] = [
                 (is the same project that is mentioned in the biography). I was 14 years old at the time when I worked on it, so it is a very special project for me.`,
   },
 ];
-</script>
-
-<article>
-	<h1 class="title">Projects</h1>
-	<h3 class="text">
-		Actually I only have one public project in my GitHub account, mostly beacause I never uploaded,
-		finished, have sensible date or are in my old GitLab account, or simply I don't like the final
-		state of it. Anyways, this is my (actual) list of public projects:
-	</h3>
-
-	<div id="projects">
-		{#each projects as project (project.title)}
-			<Project desc={project.desc} link={project.link} title={project.title} />
-		{/each}
-	</div>
-</article>
-
-<style lang="scss">
-	@use '$styles/articles.scss';
-
-	article {
-		#projects {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-
-			@media screen and (max-width: 1080px) {
-				grid-template-columns: 1fr;
-			}
-		}
-	}
-</style>

@@ -1,12 +1,11 @@
 <script>
-import Social from "./sections/Social.svelte";
-import Header from "./sections/Header.svelte";
-import Biography from "./sections/Biography.svelte";
-import Technologies from "./sections/Technologies.svelte";
-import Projects from "./sections/Projects.svelte";
-import FAQ from "./sections/FAQ.svelte";
-//	import WIP from './sections/WIP.svelte';
-import Footer from "./sections/Footer.svelte";
+import Social from "$lib/index/sections/Social.svelte";
+import Header from "$lib/index/sections/Header.svelte";
+import Biography from "$lib/index/sections/Biography.svelte";
+import Technologies from "$lib/index/sections/Technologies.svelte";
+import Projects from "$lib/index/sections/Projects.svelte";
+import FAQ from "$lib/index/sections/FAQ.svelte";
+import Footer from "$lib/index/sections/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -20,7 +19,5 @@ import Footer from "./sections/Footer.svelte";
 	<Technologies />
 	<Projects />
 	<FAQ />
-	<!-- The page is not finished but is not longer WIP -->
-	<!-- <WIP /> -->
 	<Footer />
 </main>
