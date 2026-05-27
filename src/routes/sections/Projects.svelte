@@ -4,6 +4,12 @@ import Project from "../components/Project.svelte";
 
 const projects: IProject[] = [
   {
+    "title": "qn",
+    link: "https://github.com/elsantiF/qn",
+    desc: `qn was a way to learn about programming languages and compilers. It's a simple programming language written in TypeScript, 
+    that transpiles to JavaScript and TypeScript. Tries to be a simple, minimalistic and expressive.`
+  },
+  {
     title: "Crane",
     link: "https://github.com/elsantiF/Crane",
     desc: `Crane is a simple 2D game engine written in C++23. It uses SDL3, Box2D, ImGui and entt. Based on an Entity-Component-System architecture.
